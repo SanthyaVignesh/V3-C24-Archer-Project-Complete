@@ -10,7 +10,7 @@ class PlayerArrow {
       this.width = width;
       this.height = height;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-      this.image = loadImage("../assets/arrow.png");
+      this.image = loadImage("assets/arrow.png");
       World.add(world, this.body);
     }
   
